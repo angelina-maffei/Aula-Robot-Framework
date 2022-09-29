@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on linux)" generated="20220929 09:51:28.797" rpa="false" schemaversion="3">
+<suite id="s1" name="Exemplo3" source="/home/katy/Área de Trabalho/QA/cases/exemplo3.robot">
+<test id="s1-t1" name="Cenario: Divisão" line="7">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<doc>Logs the given message to the console.</doc>
+<msg timestamp="20220929 09:51:28.850" level="FAIL">Keyword 'BuiltIn.Log To Console' expected 1 to 4 arguments, got 0.</msg>
+<status status="FAIL" starttime="20220929 09:51:28.850" endtime="20220929 09:51:28.851"/>
+</kw>
+<status status="FAIL" starttime="20220929 09:51:28.848" endtime="20220929 09:51:28.853">Setup failed:
+Keyword 'BuiltIn.Log To Console' expected 1 to 4 arguments, got 0.</status>
+</test>
+<status status="FAIL" starttime="20220929 09:51:28.802" endtime="20220929 09:51:28.855"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Exemplo3">Exemplo3</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220929 09:51:28.839" level="ERROR">Error in file '/home/katy/Área de Trabalho/QA/cases/exemplo.robot' on line 2: Setting 'Test Setup' is not allowed in resource file.</msg>
+<msg timestamp="20220929 09:51:28.841" level="ERROR">Error in file '/home/katy/Área de Trabalho/QA/cases/exemplo3.robot' on line 3: Error in file '/home/katy/Área de Trabalho/QA/cases/exemplo.robot' on line 4: Resource file with 'Test Cases' section is invalid.</msg>
+<msg timestamp="20220929 09:51:28.844" level="ERROR">Error in file '/home/katy/Área de Trabalho/QA/cases/exemplo3.robot' on line 4: Error in file '/home/katy/Área de Trabalho/QA/cases/test.robot' on line 8: Resource file with 'Test Cases' section is invalid.</msg>
+</errors>
+</robot>
